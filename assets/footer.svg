@@ -1,0 +1,29 @@
+<svg width="1200" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="always sniff before you dig">
+  <defs>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00C805" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#00C805"/>
+      <stop offset=".7" stop-color="#FF4500"/>
+      <stop offset="1" stop-color="#FF4500" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .foot{font:600 15px 'Segoe UI',Arial,sans-serif;fill:#8A8D99;letter-spacing:3px}
+      @keyframes step{0%,100%{opacity:.1}50%{opacity:.5}}
+      .s1{animation:step 2.4s ease-in-out infinite}
+      .s2{animation:step 2.4s ease-in-out .4s infinite}
+      .s3{animation:step 2.4s ease-in-out .8s infinite}
+      .s4{animation:step 2.4s ease-in-out 1.2s infinite}
+      .s5{animation:step 2.4s ease-in-out 1.6s infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="90" fill="#08080D"/>
+  <rect width="1200" height="2" fill="url(#hairline)"/>
+  <g fill="#F6F3ED">
+    <g class="s1" transform="translate(410,52) rotate(18) scale(.75)"><ellipse rx="9" ry="7"/><circle cx="-8" cy="-9" r="3.4"/><circle cy="-12" r="3.4"/><circle cx="8" cy="-9" r="3.4"/></g>
+    <g class="s2" transform="translate(470,40) rotate(10) scale(.75)"><ellipse rx="9" ry="7"/><circle cx="-8" cy="-9" r="3.4"/><circle cy="-12" r="3.4"/><circle cx="8" cy="-9" r="3.4"/></g>
+    <g class="s3" transform="translate(530,54) rotate(20) scale(.75)"><ellipse rx="9" ry="7"/><circle cx="-8" cy="-9" r="3.4"/><circle cy="-12" r="3.4"/><circle cx="8" cy="-9" r="3.4"/></g>
+    <g class="s4" transform="translate(590,42) rotate(8) scale(.75)"><ellipse rx="9" ry="7"/><circle cx="-8" cy="-9" r="3.4"/><circle cy="-12" r="3.4"/><circle cx="8" cy="-9" r="3.4"/></g>
+    <g class="s5" transform="translate(650,54) rotate(16) scale(.75)"><ellipse rx="9" ry="7"/><circle cx="-8" cy="-9" r="3.4"/><circle cy="-12" r="3.4"/><circle cx="8" cy="-9" r="3.4"/></g>
+  </g>
+  <text x="600" y="80" text-anchor="middle" class="foot">ALWAYS SNIFF BEFORE YOU DIG</text>
+</svg>
